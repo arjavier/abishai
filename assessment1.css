@@ -1,0 +1,622 @@
+body{
+	background-image:url("Image/assessment1.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+.back{
+	display: inline-block;
+	background-color:none;
+	border:none;
+	border-radius:30%;
+	position:absolute;
+	overflow:hidden;
+	background-image:transparent;
+	top:10px;
+	left:30px;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+.back .tooltip-text{
+    content: " ";
+    position: absolute;
+    bottom: 100%;  
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+.back:hover .tooltip-text {
+  visibility: visible;
+}
+#title{
+	font-family:Courier;
+	line-height:1px;
+	font-size:2em;
+	margin-top:10px;
+	margin-left:140px;
+	font-weight: bold;
+	font-style:center;
+	position:absolute;
+	color:white;
+}
+#div{
+	position:absolute;
+	width:1320px;
+	height:2800px;
+	top:150px;
+}
+#ftop{
+	position:absolute;
+	top:10px;
+	left:150px;
+}
+#login-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#login{
+	position: absolute;
+	display: inline-block;
+	top:10px;
+	left:910px;
+}
+#login-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:300px;
+	height:120px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:40px;
+	left:10px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+     z-index:1;    
+}
+#login-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#login:hover #login-content{
+	display:block;
+}
+#login:hover #login-btn{
+	background-color:transparent;
+}
+#searchbar-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#searchbar{
+	position: absolute;
+	display: inline-block;
+	top:40px;
+	left:400px;
+}
+#searchbar-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:300px;
+	height:80px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:60px;
+	left:10px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+     z-index:5;
+}
+#searchbar-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#searchbar:hover #searchbar-content{
+	display:block;
+}
+#searchbar:hover #searchbar-btn{
+	background-color:transparent;
+}
+#fright{
+	position:absolute;
+	top:110px;
+	left:150px;
+}
+#searchcat-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#searchcat{
+	position: absolute;
+	display: inline-block;
+	top:180px;
+	left:150px;
+}
+#searchcat-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:300px;
+	height:120px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:100px;
+	left:260px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#searchcat-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#searchcat:hover #searchcat-content{
+	display:block;
+}
+#searchcat:hover #searchcat-btn{
+	background-color:transparent;
+}
+#fbody{
+	position:absolute;
+	top:110px;
+	left:400px;
+}
+#product-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#product{
+	position: absolute;
+	display: inline-block;
+	top:150px;
+	left:520px;
+}
+#product-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:300px;
+	height:90px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:100px;
+	left:260px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#product-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#product:hover #product-content{
+	display:block;
+}
+#product:hover #product-btn{
+	background-color:transparent;
+}
+#line1{
+    top:640px;
+    left:60px;
+    position: absolute;
+    font-size: 20px;
+    color: #F1D5B7;
+    font-weight: bold; 
+}
+#stop{
+	position:absolute;
+	top:700px;
+	left:150px;
+}
+#sbody{
+	position:absolute;
+	top:800px;
+	left:150px;
+}
+#prodvariation-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#prodvariation{
+	position: absolute;
+	display: inline-block;
+	top:1070px;
+	left:500px;
+}
+#prodvariation-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:310px;
+	height:150px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:50px;
+	left:330px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#prodvariation-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#prodvariation:hover #prodvariation-content{
+	display:block;
+}
+#prodvariation:hover #prodvariation-btn{
+	background-color:transparent;
+}
+#buynow-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#buynow{
+	position: absolute;
+	display: inline-block;
+	top:1250px;
+	left:490px;
+}
+#buynow-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:320px;
+	height:70px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:60px;
+	left:50px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#buynow-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#buynow:hover #buynow-content{
+	display:block;
+}
+#buynow:hover #buynow-btn{
+	background-color:white;
+}
+#add2cart-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#add2cart{
+	position: absolute;
+	display: inline-block;
+	top:1250px;
+	left:645px;
+}
+#add2cart-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:320px;
+	height:70px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:60px;
+	left:60px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#add2cart-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#add2cart:hover #add2cart-content{
+	display:block;
+}
+#add2cart:hover #add2cart-btn{
+	background-color:white;
+}
+#deliveryopt-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#deliveryopt{
+	position: absolute;
+	display: inline-block;
+	top:810px;
+	left:800px;
+}
+#deliveryopt-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:280px;
+	height:120px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:100px;
+	left:230px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#deliveryopt-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#deliveryopt:hover #deliveryopt-content{
+	display:block;
+}
+#deliveryopt:hover #deliveryopt-btn{
+	background-color:transparent;
+}
+#line2{
+    top:1350px;
+    left:60px;
+    position: absolute;
+    font-size: 20px;
+    color: #F1D5B7;
+    font-weight: bold; 
+}
+#tbody{
+	position:absolute;
+	top:1420px;
+	left:150px;
+}
+#voucher-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#voucher{
+	position: absolute;
+	display: inline-block;
+	top:1790px;
+	left:800px;
+}
+#voucher-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:280px;
+	height:80px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:70px;
+	left:150px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#voucher-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#voucher:hover #voucher-content{
+	display:block;
+}
+#voucher:hover #voucher-btn{
+	background-color:transparent;
+}
+#placeorder-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#placeorder{
+	position: absolute;
+	display: inline-block;
+	top:1900px;
+	left:800px;
+}
+#placeorder-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:280px;
+	height:100px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:70px;
+	left:150px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#placeorder-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#placeorder:hover #placeorder-content{
+	display:block;
+}
+#placeorder:hover #placeorder-btn{
+	background-color:transparent;
+}
+#line3{
+    top:1970px;
+    left:60px;
+    position: absolute;
+    font-size: 20px;
+    color: #F1D5B7;
+    font-weight: bold; 
+}
+#ftbody{
+	position:absolute;
+	top:2040px;
+	left:150px;
+}
+#payopt-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#payopt{
+	position: absolute;
+	display: inline-block;
+	top:2100px;
+	left:400px;
+}
+#payopt-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:280px;
+	height:80px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:180px;
+	left:150px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#payopt-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#payopt:hover #payopt-content{
+	display:block;
+}
+#payopt:hover #payopt-btn{
+	background-color:transparent;
+}
+#line4{
+    top:2340px;
+    left:60px;
+    position: absolute;
+    font-size: 20px;
+    color: #F1D5B7;
+    font-weight: bold; 
+}
+#ffbody{
+	position:absolute;
+	top:2410px;
+	left:150px;
+}
+#rate-btn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-color:#F1D5B7;
+	border-style:solid;
+	z-index:1;
+	cursor:pointer;
+}
+#rate{
+	position: absolute;
+	display: inline-block;
+	top:2540px;
+	left:800px;
+}
+#rate-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	font-size:14px;
+	background-color:#F1D5B7;
+	width:280px;
+	height:100px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:80px;
+	left:150px;
+	color:#554E5C;
+	padding:10px;
+	text-decoration:none;
+    z-index:5;
+}
+#rate-content:hover{
+	background-color:#F6DFC3;
+	display:block;
+}
+#rate:hover #rate-content{
+	display:block;
+}
+#rate:hover #rate-btn{
+	background-color:transparent;
+}
+#subdate{
+	top:2700px;
+	left:600px;
+	position:absolute;
+	font-family:Century Gothic;
+	color:white;
+}

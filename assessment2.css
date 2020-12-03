@@ -1,0 +1,199 @@
+body{
+	background-image:url("Image/assessment2.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+#back{
+	display: inline-block;
+	background-color:none;
+	border:none;
+	border-radius:30%;
+	position:absolute;
+	overflow:hidden;
+	background-image:transparent;
+	top:10px;
+	left:30px;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+
+#title{
+	font-family:Courier;
+	line-height:1px;
+	font-size:2em;
+	margin-top:10px;
+	margin-left:460px;
+	font-weight: bold;
+	font-style:center;
+	position:absolute;
+	color:#3D3D3D;
+}
+#no1{
+	top:150px;
+	left:50px;
+	position:absolute;
+	width:700px;
+	height:160px;
+	border-color:white;
+	border-style: ridge;
+	padding:5px;
+	color:#3D3D3D;
+}
+#no2{
+	top:350px;
+	left:300px;
+	position:absolute;
+	width:700px;
+	height:140px;
+	border-color:white;
+	border-style: ridge;
+	padding:5px;
+	color:#3D3D3D;
+}
+#no3{
+	top:535px;
+	left:50px;
+	position:absolute;
+	width:700px;
+	height:250px;
+	border-color:white;
+	border-style: ridge;
+	padding:5px;
+	color:#3D3D3D;
+}
+#no4{
+	top:830px;
+	left:300px;
+	position:absolute;
+	width:700px;
+	height:270px;
+	border-color:white;
+	border-style: ridge;
+	padding:5px;
+	color:#3D3D3D;
+}
+#q{
+	top:1130px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:110px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#w{
+	top:1280px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:110px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#e{
+	top:1430px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:90px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#r{
+	top:1560px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:170px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#t{
+	top:1770px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:130px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#y{
+	top:1940px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:130px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#u{
+	top:2110px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:110px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+#i{
+	top:2260px;
+	left:300px;
+	position:absolute;
+	width:690px;
+	height:90px;
+	border-color:white;
+	border-style: dashed;
+	padding:10px;
+	color:#3D3D3D;
+}
+ul{
+	font-family: Century Gothic;
+	font-size:18px;
+}
+ul li{
+	font-style:italic;
+	font-family: Century Gothic;
+	font-size:18px;
+}
+ul li ul li{
+	font-style:normal;
+}
+dl dt{
+	font-style:italic;
+}
+dt,dd{
+	font-family: Century Gothic;
+	font-size:16px;
+	font-style:normal;
+}
+#div{
+	position:absolute;
+	width:1330px;
+	height:2430px;
+	top:40px;
+
+}
+#subdate{
+	top:2400px;
+	left:600px;
+	position:absolute;
+	font-family:Century Gothic;
+	color:white;
+}

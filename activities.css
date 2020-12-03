@@ -1,0 +1,245 @@
+ body{
+	background-image:url("Image/activities.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+#home{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:770px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#home:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#about{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:880px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#about:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#profile{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:1020px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#profile:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#activity{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+	margin-left:1150px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#activity:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+/* Assessment 1 */
+#ass1-btn{
+	background-color:#99403A;
+	padding:16px;
+	border:none;
+	height:100px;
+	width:230px;
+	font-family:Century Gothic;
+	font-size:20px;
+	color:black;
+    border-radius: 5px;
+}
+#ass1{
+	position: relative;
+	display: inline-block;
+	top:19%;
+	left:15%;
+}
+#ass1-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	background-color:white;
+	width: 300px;
+	height:65px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	top:100%;
+	left:0%;
+}
+#ass1-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+#ass1-content a:hover{
+	background-color:#E6B28D;
+}
+#ass1:hover #ass1-content{
+	display:block;
+}
+#ass1:hover #ass1-btn{
+	background-color:#99403Ace;
+    box-shadow: 3px 3px #000000;
+    
+}
+/* Assessment 2 */
+#ass2-btn{
+	background-color:#99403A;
+	padding:16px;
+	border:none;
+	height:100px;
+	width:230px;
+	font-family:Century Gothic;
+	font-size:20px;
+	color:black;
+    border-radius: 5px;
+}
+#ass2{
+	position: absolute;
+	display: inline-block;
+	top:20%;
+	left:42%;
+}
+#ass2-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	background-color:white;
+	width:300px;
+	height:45px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	top:100%;
+	left:0%;
+}
+#ass2-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+#ass2-content a:hover{
+	background-color:#E6B28D;
+}
+#ass2:hover #ass2-content{
+	display:block;
+}
+#ass2:hover #ass2-btn{
+	background-color:#99403Ace;
+    box-shadow: 3px 3px #000000;
+}
+/* Assessment 3 */
+#ass3-btn{
+	background-color:#99403A;
+	padding:16px;
+	border:none;
+	height:100px;
+	width:230px;
+	font-family:Century Gothic;
+	font-size:20px;
+	color:black;
+    border-radius: 5px;
+}
+#ass3{
+	position: absolute;
+	display: inline-block;
+	top:20%;
+	left:70%;
+}
+#ass3-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	background-color:white;
+	width:300px;
+	height:40px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	top:100%;
+	left:0%;
+}
+#ass3-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+#ass3-content a:hover{
+	background-color:#E6B28D;
+}
+#ass3:hover #ass3-content{
+	display:block;
+}
+#ass3:hover #ass3-btn{
+	background-color:#99403Ace;
+    box-shadow: 3px 3px #000000;
+}
+/* Assessment 4 */
+#ass4-btn{
+	background-color:#99403A;
+	padding:16px;
+	border:none;
+	height:100px;
+	width:230px;
+	font-family:Century Gothic;
+	font-size:20px;
+	color:black;
+    border-radius: 5px;
+}
+#ass4{
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left:15%
+}
+#ass4-content{
+	display:none;
+	position:absolute;
+	font-family:Century Gothic;
+	background-color:white;
+	width:300px;
+	height:40px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	top:100%;
+	left:0%;
+}
+#ass4-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+#ass4-content a:hover{
+	background-color:#E6B28D;
+}
+#ass4:hover #ass4-content{
+	display:block;
+}
+#ass4:hover #ass4-btn{
+	background-color:#99403Ace;
+    box-shadow: 3px 3px #000000;
+}

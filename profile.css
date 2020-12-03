@@ -1,0 +1,61 @@
+ body{
+	background-image:url("Image/profile.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	
+}
+#home{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:770px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#home:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#about{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:880px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#about:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#profile{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+	margin-left:1020px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#profile:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}
+#activity{
+	font-family:Cooper Black;
+	font-size:2em;
+	position:absolute;
+	color:#26110D;
+	margin-left:1150px;
+	margin-top:10px;
+	text-decoration:none;
+}
+#activity:hover{
+	color:#8C3D24;
+	text-shadow:2px 2px white;
+}

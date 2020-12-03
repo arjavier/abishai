@@ -1,0 +1,131 @@
+body{
+	background-image:url("Image/assessment4.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+#back{
+	display: inline-block;
+	background-color:none;
+	border:none;
+	border-radius:30%;
+	position:absolute;
+	overflow:hidden;
+	background-image:transparent;
+	top:10px;
+	left:30px;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+
+#title{
+	font-family:Courier;
+	line-height:1px;
+	font-size:2em;
+	margin-top:10px;
+	margin-left:460px;
+	font-weight: bold;
+	font-style:center;
+	position:absolute;
+	color:#3C150E;
+}
+#div{
+	position:absolute;
+	width:1320px;
+	height:2300px;
+	top:160px;
+}
+
+#pbg1{
+    position: absolute;
+    top: 0px;
+    left:60px;
+}
+#num1{
+    position: absolute;
+    font-family: 'Jua', sans-serif;    
+    font-style: italic;
+    color: #A55355;
+    font-size: 25px;
+    left:170px;
+    top: 50px;
+}
+
+#pbg2{
+    position: absolute;
+    top: 470px;
+    left:500px;
+}
+#num2{
+    position: absolute;
+    font-family: 'Jua', sans-serif;    
+    font-style: italic;
+    color: #A55355;
+    font-size: 25px;
+    left:580px;
+    top: 530px;
+}
+
+#pbg3{
+    position: absolute;
+    top: 870px;
+    left:60px;
+}
+#num3{
+    position: absolute;
+    font-family: 'Jua', sans-serif;    
+    font-style: italic;
+    color: #A55355;
+    font-size: 25px;
+    left:120px;
+    top: 910px;
+}
+
+#pbg4{
+    position: absolute;
+    top: 1320px;
+    left:460px;
+}
+#num4{
+    position: absolute;
+    font-family: 'Jua', sans-serif;    
+    font-style: italic;
+    color: #A55355;
+    font-size: 25px;
+    left:530px;
+    top: 1350px;
+}
+
+#pbg5{
+    position: absolute;
+    top: 1720px;
+    left:60px;
+}
+#num5{
+    position: absolute;
+    font-family: 'Jua', sans-serif;    
+    font-style: italic;
+    color: #A55355;
+    font-size: 25px;
+    left:140px;
+    top:1800px;
+}
+
+#line{
+    top:2230px;
+    left:60px;
+    position: absolute;
+    font-size: 20px;
+    color: #A55355;
+    font-weight: bold; 
+}
+
+#subdate{
+	top:2250px;
+	left:700px;
+	position:absolute;
+	font-family:Century Gothic;
+	color: #A55355;
+}

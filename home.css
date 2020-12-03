@@ -1,0 +1,88 @@
+/*Home.html */
+body{
+	background-image:url("Image/home.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0;
+	background-position:center;
+	background-attachment:fixed;
+	
+}
+.homedesign{
+	position:absolute;
+	margin-left:330px;
+	margin-top:120px;
+}
+#homepic{
+	position:absolute;
+	left:145px;
+	top:-50px;
+}
+#pw{ 
+	position:absolute; 
+	font-family:Agency FB;
+	font-size:1em;
+	color:#F1C27D;
+	top: 85px; 
+	left: 30px; 
+}
+#abi{
+	position:absolute;
+	font-size:3em;
+	color:#771512;
+	top: 180px; 
+	left: 150px; 
+	text-decoration: none;
+}
+#abi:hover{
+	color:#C68642;
+}
+#fb{
+	position:absolute;
+	left:20px;
+	top:335px;
+}
+#arj{
+	position:absolute;
+	font-family:Comic Sans MS;
+	font-size:2em;
+	color:#A56953;
+	top: 300px; 
+	left: 70px; 
+}
+#arj:hover{
+	color:#771512;
+}
+#ig{
+	position:absolute;
+	left:250px;
+	top:335px;
+}
+#abishaiiii{
+	position:absolute;
+	font-family:Comic Sans MS;
+	font-size:2em;
+	color:#A56953;
+	top: 300px; 
+	left: 300px; 
+}
+#abishaiiii:hover{
+	color:#771512;
+}
+#twitter{
+	position:absolute;
+	left:470px;
+	top:335px;
+}
+#abishaiiiii{
+	position:absolute;
+	font-family:Comic Sans MS;
+	font-size:2em;
+	color:#A56953;
+	top: 300px; 
+	left: 520px; 
+}
+#abishaiiiii:hover{
+	color:#771512;
+}
